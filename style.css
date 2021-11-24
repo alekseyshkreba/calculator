@@ -1,0 +1,86 @@
+.calc-small {
+    width: 300px;
+    height: 370px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: beige;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+.screen {
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 300px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 50px; height: 50px;
+    border-radius: 50px;
+    background: rgba(128, 128, 128, 0.2);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+.buttons :hover {
+    background: rgba(128, 128, 128, 0.32);;
+}
+
+.buttons :active {
+    background: rgba(128, 128, 128, 0.11);
+    box-shadow: 0 0 2px rgba(0,0,0,0.5)
+}
+
+
+.buttons {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.operator {
+    background: coral;
+}
+
+
+
+
+.calc-big {
+    border: 1px solid black;
+    width: 600px;
+    height: 370px;
+    border-radius: 5px;
+    background: beige;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+.big-screen {
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.big-buttons {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.big-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 50px; height: 50px;
+    border-radius: 50px;
+    background: rgba(128, 128, 128, 0.2);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
